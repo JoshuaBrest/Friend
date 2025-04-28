@@ -1,0 +1,74 @@
+{
+    "version": "1.0",
+    "sourceLanguage": "en",
+    "strings": {
+        "CFBundleDisplayName": {
+            "extractionState": "manual",
+            "localizations": {
+                "en": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "Friend"
+                    }
+                },
+                "zh-Hans": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "小友"
+                    }
+                }
+            }
+        },
+        "CFBundleName": {
+            "extractionState": "manual",
+            "localizations": {
+                "en": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "Friend"
+                    }
+                },
+                "zh-Hans": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "小友"
+                    }
+                }
+            }
+        },
+        "NSMicrophoneUsageDescription": {
+            "extractionState": "manual",
+            "localizations": {
+                "en": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "Microphone is required for prompt transcription feature."
+                    }
+                },
+                "zh-Hans": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "麦克风是语音转文字功能所必需的。"
+                    }
+                }
+            }
+        },
+        "NSLocationWhenInUseUsageDescription": {
+            "extractionState": "manual",
+            "localizations": {
+                "en": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "Location is required for the weather feature."
+                    }
+                },
+                "zh-Hans": {
+                    "stringUnit": {
+                        "state": "translated",
+                        "value": "天气功能需要访问位置。"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+format_version = 2
+
+[apps.Friend]
+product = "Friend"
+identifier = "cx.bashed.demo.friend"
+category = "public.app-category.utilities"
+version = "0.1.0"
+icon = "AppIcon.png"
+
+[apps.Friend.plist]
+CFBundleDisplayName = "Friend"
+CFBundleShortVersionString = "$(VERSION)_$(COMMIT_HASH)"
+NSMicrophoneUsageDescription = "Microphone is required for prompt transcription feature."
+NSLocationWhenInUseUsageDescription = "Location is required for the weather feature."
