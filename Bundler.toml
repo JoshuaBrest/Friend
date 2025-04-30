@@ -4,7 +4,7 @@ format_version = 2
 product = "Friend"
 identifier = "cx.bashed.demo.friend"
 category = "public.app-category.utilities"
-version = "0.1.0"
+version = "0.1.1"
 icon = "AppIcon.png"
 
 [apps.Friend.plist]

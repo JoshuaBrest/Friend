@@ -229,13 +229,21 @@ enum ToolsModel {
     static func getCurrentTime() -> CurrentTime {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+
         let currentDate = Date()
+
+        // Local time
+        dateFormatter.timeZone = TimeZone.current
+        let localTime = dateFormatter.string(from: currentDate)
+
+        // UTC time
+        dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
+        let utcTime = dateFormatter.string(from: currentDate)
+
         return CurrentTime(
             localTimezone: TimeZone.current.identifier,
-            localTime: dateFormatter.string(from: currentDate),
-            utcTime: dateFormatter.string(
-                from: currentDate.addingTimeInterval(
-                    TimeInterval(TimeZone.current.secondsFromGMT())))
+            localTime: localTime,
+            utcTime: utcTime
         )
     }
 
